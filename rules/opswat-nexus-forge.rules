@@ -1,0 +1,13 @@
+# Nexus Threat Forge — Suricata Signature Repository
+#
+# SID range: 9000000–9999999 (reserved for NTF auto-generated rules)
+# Managed by: Nexus Threat Forge pipeline (generator → validator → deployer agents)
+# Do NOT edit manually — all changes go through the NTF pipeline.
+#
+# Format: Suricata 7.x compatible
+# Validate: suricata -T -c /etc/suricata/suricata.yaml -S rules/opswat-nexus-forge.rules
+#
+# Last updated: auto-managed
+
+# --- Placeholder: NTF pipeline will append generated rules below ---
+# alert tcp any any -> any any (msg:"NTF PLACEHOLDER - do not use"; sid:9000000; rev:1;)
